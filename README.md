@@ -1,43 +1,113 @@
-# pamiII-leonardo-buso
-Programação de Aplicativos Mobile II por Prof João Siles e Najara Cardoso
+# 📱 pamiII - Leonardo Buso
 
-# Creating an Expo Project
+### 🚀 Programação de Aplicativos Mobile II
 
-Hi! I'm Leonardo Buso de Souza and I'm going to teach you how to create an app
-Welcome to my Git Hub 👋
+**Prof. João Siles & Najara Cardoso**
 
-# System requirements
+---
 
--   [Node.js (LTS)](https://nodejs.org/en/) .
--   macOS, Windows (Powershell e [WSL 2](https://expo.fyi/wsl) ) e Linux são suportados.
+# 👋 Welcome!
 
-## Creating the project
+Olá! Eu sou **Leonardo Buso de Souza** e neste guia você vai aprender de forma **rápida e prática** como criar um aplicativo usando **Expo (React Native)** 🚀
 
-   Open the terminal Windows PowerShell
+---
 
-> Copy this code and paste in PowerShell
+# 🧰 1. Requisitos do Sistema
 
-    npx create-expo-app@latest
+Antes de começar, você precisa ter instalado:
 
-## Rename a file
+* 🟢 **Node.js (LTS)** → https://nodejs.org/en/
+* 💻 Sistema operacional compatível:
 
-> You can rename the file in this part
+  * Windows (PowerShell ou WSL 2)
+  * macOS
+  * Linux
 
-    	 What is your app named? » my-app
+---
 
-## Opening the App
+# ⚙️ 2. Criando o Projeto Expo
 
- 1. 
+### ▶️ Passo 1: Abrir o terminal
 
-> Enter with this code
+Abra o **Windows PowerShell**
 
-    cd file-name
- 
+---
 
- 2. Chose your develop
+### ▶️ Passo 2: Criar o projeto
 
-> npm run android
-> npm run ios 
-> npm run web
+Copie e cole o comando abaixo:
 
-    npm run your-develop
+```bash
+npx create-expo-app@latest
+```
+
+---
+
+# ✏️ 3. Nome do Projeto
+
+Durante a criação, será exibida a pergunta:
+
+```
+What is your app named?
+```
+
+👉 Digite o nome do seu app, por exemplo:
+
+```
+my-app
+```
+
+---
+
+# 📂 4. Acessar o Projeto
+
+Após a criação, entre na pasta do projeto:
+
+```bash
+cd nome-do-projeto
+```
+
+---
+
+# ▶️ 5. Rodar o Aplicativo
+
+Escolha onde deseja rodar o app:
+
+### 📱 Android
+
+```bash
+npm run android
+```
+
+### 🍎 iOS
+
+```bash
+npm run ios
+```
+
+### 🌐 Web
+
+```bash
+npm run web
+```
+
+---
+
+# 💡 Dicas Importantes
+
+* 📲 Para rodar no celular, use o app **Expo Go**
+* ⚡ Certifique-se de que o Node está atualizado
+* 🔄 Caso dê erro, tente:
+
+```bash
+npm install
+```
+
+---
+
+# 🎯 Resultado
+
+Após executar, seu app será iniciado automaticamente 🎉
+Você já poderá ver e testar sua aplicação em tempo real!
+
+---
