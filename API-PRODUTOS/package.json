@@ -1,0 +1,21 @@
+{
+  "name": "aula-api-rest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "aprendendo a criar uma api rest   ",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Leonardo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.6.0",
+    "mongoose": "^9.7.1",
+    "nodemon": "^3.0.1"
+  }
+}
