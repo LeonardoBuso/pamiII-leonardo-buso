@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: blueviolet;
+}
+
+h2 {
+  color: #00FA9A;
+  margin-top: 10px;
+}
+
+.envio-dados {
+  padding: 5px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  color: #00FA9A;
+}
+
+.botao-cadastrar {
+  padding: 5px;
+  margin: 5px;
+  background-color:	#00FA9A;
+  border-color: #00FA9A;
+  border-radius: 5px;
+}
+
+.botao-deletar {
+  padding: 5px;
+  margin: 5px;
+  background-color:	#00FA9A;
+  border-color: #00FA9A;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: #00FA9A;
+}
+
+li {
+  color: #00FA9A;
+  text-align: left;
+  margin-left: 20px;
+}
